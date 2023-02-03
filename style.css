@@ -1,0 +1,96 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(235, 238, 255);
+    background-image: url(images/background-vector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    flex-direction: column;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+}
+
+.logo>img{
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    padding-left: 40px;
+}
+
+nav>ul{
+    display: flex;
+}
+
+.item{
+    font-family: 'poppins';
+    color: #312A87;
+    cursor: pointer;
+    padding-right: 40px;
+}
+
+.signup{
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    background-color: #D4609F;
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#hero {
+    width: 400px;
+    font-family: 'raleway';
+    margin-left: -555px;
+}
+
+.hero-head{
+    font-family: 'poppins';
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #312A87;
+    padding-top: 20px;
+}
+
+.hero-pera{
+    font-size: 14px;
+    padding: 20px 0px 40px 0px;
+}
+
+.call-to-action{
+    height: 50px;
+    width: 150px;
+    color: #fff;
+    background-color: #D4609F;
+    font-family: 'poppins';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
